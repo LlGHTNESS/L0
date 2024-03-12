@@ -1,0 +1,49 @@
+{
+  "order_uid": "b563fesdfsfsd33t",
+  "track_number": "WBILMTESTTRACK",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "Tedfs DDv",
+    "phone": "+9723423553",
+    "zip": "23459",
+    "city": "Moscow",
+    "address": "Gfgfdfg gdfs 324",
+    "region": "Kdzvdsot",
+    "email": "tdsgfdsg@gmail.com"
+  },
+  "payment": {
+    "transaction": "b563fesdfsfsd33t",
+    "request_id": "",
+    "currency": "RUB",
+    "provider": "wbpay",
+    "amount": 8374,
+    "payment_dt": 16335235,
+    "bank": "sber",
+    "delivery_cost": 200,
+    "goods_total": 332,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 4354356,
+      "track_number": "WBILMTESTTRACK",
+      "price": 845,
+      "rid": "b563fesdfsfsd33t",
+      "name": "Jdsfsdd",
+      "sale": 15,
+      "size": "1",
+      "total_price": 954,
+      "nm_id": 2458562,
+      "brand": "VBdfs BVds",
+      "status": 202
+    }
+  ],
+  "locale": "ru",
+  "internal_signature": "",
+  "customer_id": "test2",
+  "delivery_service": "meest",
+  "shardkey": "9",
+  "sm_id": 34,
+  "date_created": "2024-11-26T06:22:19Z",
+  "oof_shard": "1"
+}

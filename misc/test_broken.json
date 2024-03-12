@@ -1,0 +1,45 @@
+{
+  "order_uid": "2432425frdfg3t",
+  "track_number": "WBILMTESTTRACK",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "dsfss DDdsfdfsv",
+    "phone": "+2373278723478",
+    "city": "Moscow",
+    "address": "wfeewewf wefwef 324",
+    "region": "Kdzvdsot",
+    "email": "rwewfwe@gmail.com"
+  ,
+  "paymes": {
+    "request_id": "",
+    "currency": "RUB",
+    "provider": "wbpay",
+    "amount": 8374,
+    "payment_dt": 16335235,
+    "bank": "sber",
+    "delivery_cost": 200,
+    "goods_total": 332,
+    "custom_fee": 0
+  }},
+  "items": [
+    {
+      "chrt_id": 643634,
+      "track_number": "WBILMTESTTRACK",
+      "price": 354,
+      "rid": "b563fesdfsfsd33t",
+      "name": "erwew r",
+      "sale": 75,
+      "nm_id": 2458562,
+      "brand": "wer erwewr",
+      "status": 202
+    }
+  ],
+  "locale": "ru",
+  "internal_signature": "",
+  "customer_id": "test3",
+  "delivery_service": "meest",
+  "shardkey": "9",
+  "sm_id": 42,
+  "date_created": "2024-11-26T06:22:19Z",
+  "oof_shard": "1"
+}

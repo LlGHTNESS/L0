@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f6f8fa;
+        color: #24292e;
+        padding: 20px;
+    }
+    .search-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .input-field {
+        border: 1px solid #d1d5da;
+        border-radius: 5px 0 0 5px;
+        padding: 10px;
+        width: 280px;
+        outline: none;
+    }
+    .search-button {
+        padding: 10px;
+        border: 1px solid #d1d5da;
+        border-left: none;
+        background-color: #2ea44f;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+    .search-button:hover {
+        background-color: #22863a;
+    }
+    .output {
+        margin-top: 20px;
+        border: 1px solid #d1d5da;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        white-space: pre-line;
+    }
+</style>
+</head>
+<body>
+    <form action="http://localhost:8080/search" method="get">
+         <div class="search-container">
+        <input type="text" name="orderUID" class="input-field" id="searchInput" placeholder="Искать здесь...">
+        <button type="submit" class="search-button">Поиск</button>
+        </div>
+        <div class="output" id="outputArea">
+            {{if .Result}}{{.Result}}{{end}}
+        </div>
+    </form>
+</body>
+</html>
